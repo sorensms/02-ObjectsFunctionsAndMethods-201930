@@ -25,9 +25,13 @@ def main():
     #draw_circles(rg.Point(-200, 0))
     #better_draw_circles(rg.Point(100, 50),4)
     #better_draw_circles(rg.Point(-200, 0),4)
-    even_better_draw_circles(rg.Point(100,50), 10, 12, 'blue', 5)
-    even_better_draw_circles(rg.Point(10, 100), 20, 7, 'red', 8)
-
+    #even_better_draw_circles(rg.Point(100,50), 10, 12, 'blue', 5)
+    #even_better_draw_circles(rg.Point(10, 100), 20, 7, 'red', 8)
+    even_better_draw_circles(rg.Point(0, 0), 12, 7, 'yellow', 8)
+    even_better_draw_circles(rg.Point(150, 150), 14, 7, 'red', 8)
+    even_better_draw_circles(rg.Point(150, 0), 14, 7, 'red', 8)
+    even_better_draw_circles(rg.Point(0, 150), 14, 7, 'red', 8)
+    even_better_draw_circles(rg.Point(-150, -150), 14, 7, 'red', 8)
     window.update()
     window.close_on_mouse_click()
 
